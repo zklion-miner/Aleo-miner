@@ -1,11 +1,13 @@
 
 ## 1、準備挖礦設備
 
-操作系統：Ubuntu 18.04、Ubuntu 20.04
+操作系統：推薦使用ubuntu 20.04 server版、暫不兼容桌面版ubuntu系統
+
+系統下載地址：https://releases.ubuntu.com/focal/ubuntu-20.04.6-live-server-amd64.iso
 
 GPU：推薦擁有6GB以上顯存，NVIDIA顯卡，驅動版本515或更高。
 
-驅動下載：[NVIDIA官方驅動下載](https://www.nvidia.cn/Download/index.aspx?lang=cn)
+驅動下載：[NVIDIA官方驅動下載](https://www.nvidia.com/Download/index.aspx?lang=en-us)
 
 
 
