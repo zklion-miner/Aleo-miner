@@ -26,11 +26,11 @@ zklion ALEO挖礦方式為用戶名挖礦，需註冊礦池帳戶後根據引導
 
 [下載地址](https://github.com/zklion-miner/Aleo-miner/releases)
 ```shell
-zklion-pool-prover 	//Ubuntu系統礦池挖礦程序
+zklion-pool-prover 	    //Ubuntu系統礦池挖礦程序
 
-zklion-solo-prover 	//Ubuntu系統solo挖礦程序
+aleo-solo-prover.zip 	//Ubuntu系統solo挖礦程序
 
-zklionminer 		//HiveOS系統礦池挖礦程序
+zklionminer 		    //HiveOS系統礦池挖礦程序
 ```
 
 
