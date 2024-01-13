@@ -81,6 +81,13 @@ chmod +x zklion-pool-prover
 ./zklion-pool-prover --account test01 --pool wss://aleo.zklion.com:3777 --worker-name 192-168-100-101
 
 #solo程序啟動示例
+1、解壓縮
+tar -zxvf aleo-solo-prover.tar.gz
+2、進入解壓後的目錄
+cd aleo-solo-prover/
+3、添加可執行權限
+chmod +x aleo-solo-prover
+4、啟動
 ./zklion-solo-prover --address aleo1308gq2pfn0y3hgm722wysx4ks8szxsxaxsdnjnabdy --proxy wss://aleo.zklion.com:3666 --worker-name x99-01
 ```
 
@@ -90,5 +97,6 @@ nohup ./zklion-pool-prover --account test01 --pool wss://aleo.zklion.com:3777 --
 ```
 
 檢查zklion-pool-prover.log日誌、顯示如下信息，則說明程序運行正常
-<img width="847" alt="image" src="https://github.com/chihua2023/ZKLion/assets/137146992/cfaa57cc-f719-4d50-b214-9177db560bb0">
+<img width="845" alt="image" src="https://github.com/zklion-miner/Aleo-miner/assets/137146992/1f13df80-6dfe-46f2-8fcf-38e835b8a3b1">
+
 
