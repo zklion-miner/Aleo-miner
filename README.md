@@ -57,11 +57,11 @@ OPTIONS:
 
 ```shell
 #solo挖礦程序
-./zklion-solo-prover --help
-ZKLION-solo-prover 0.1.0 (7b503b8 2023-11-08)
+./aleo-solo-prover --help
+-solo-prover 0.1.0 (ca566ce 2024-01-11)
 
 USAGE:
-    zklion-solo-prover [OPTIONS] --proxy <PROXY> --address <ADDRESS>
+    aleo-solo-prover [OPTIONS] --proxy <PROXY> --address <ADDRESS>
 
 OPTIONS:
         --address <ADDRESS>            //你的aleo錢包地址
@@ -88,7 +88,7 @@ cd aleo-solo-prover/
 3、添加可執行權限
 chmod +x aleo-solo-prover
 4、啟動
-./zklion-solo-prover --address aleo1308gq2pfn0y3hgm722wysx4ks8szxsxaxsdnjnabdy --proxy wss://aleo.zklion.com:3666 --worker-name x99-01
+./aleo-solo-prover --address aleo1308gq2pfn0y3hgm722wysx4ks8szxsxaxsdnjnabdy --proxy wss://aleo.zklion.com:3666 --worker-name x99-01
 ```
 
 ## 6、後臺運行挖礦程序
