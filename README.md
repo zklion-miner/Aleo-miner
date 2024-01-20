@@ -1,7 +1,14 @@
 
 ## 1、準備挖礦設備
 
-操作系統：推薦使用ubuntu 20.04 server版、暫不兼容桌面版ubuntu系統
+操作系統：推薦使用如下系统、暫不兼容桌面版ubuntu
+
+
+ Ubuntu 18.04 server
+ 
+ Ubuntu 20.04 server
+ 
+ HiveOS [教程](https://github.com/zklion-miner/Aleo-miner/tree/master/HiveOS)
 
 系統下載地址：https://releases.ubuntu.com/focal/ubuntu-20.04.6-live-server-amd64.iso
 
