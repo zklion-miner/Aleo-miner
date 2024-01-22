@@ -16,6 +16,27 @@ GPU：推薦擁有6GB以上顯存，NVIDIA顯卡，驅動版本515或更高。
 
 驅動下載：[NVIDIA官方驅動下載](https://www.nvidia.com/Download/index.aspx?lang=en-us)
 
+## Nvidia顯卡驅動安裝教程
+```
+apt update
+
+apt install gcc make -y
+
+echo -e "blacklist nouveau\noptions nouveau modeset=0" > /etc/modprobe.d/blacklist-nouveau.conf
+
+update-initramfs -u
+
+reboot
+
+重啟之後執行如下命令（下载链接也可替换为官网的最新版驱动）
+
+wget https://us.download.nvidia.com/XFree86/Linux-x86_64/535.129.03/NVIDIA-Linux-x86_64-535.129.03.run
+
+chmod +x NVIDIA-Linux-x86_64-535.129.03.run
+
+./NVIDIA-Linux-x86_64-535.129.03.run --no-opengl-files --no-x-check -s
+```
+
 
 
 ## 2、註冊zklion礦池帳戶
@@ -33,11 +54,11 @@ zklion ALEO挖礦方式為用戶名挖礦，需註冊礦池帳戶後根據引導
 
 [下載地址](https://github.com/zklion-miner/Aleo-miner/releases)
 ```shell
-aleo-pool-prover 	        //Ubuntu系統礦池挖礦程序
+aleo-pool-prover          //Ubuntu系統礦池挖礦程序
 
-aleo-solo-prover.tar.gz 	//Ubuntu系統solo挖礦程序
+aleo-solo-prover.tar.gz  //Ubuntu系統solo挖礦程序
 
-zklion_miner.tar.gz         //HiveOS系統礦池挖礦程序
+zklion_miner.tar.gz      //HiveOS系統礦池挖礦程序
 ```
 
 
