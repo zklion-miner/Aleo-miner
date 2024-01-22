@@ -28,7 +28,7 @@ update-initramfs -u
 
 reboot
 
-重啟之後執行如下命令（下载链接也可替换为官网的最新版驱动）
+重啟之後執行如下命令（下載鏈接也可替換為官網的最新版驅動）
 
 wget https://us.download.nvidia.com/XFree86/Linux-x86_64/535.129.03/NVIDIA-Linux-x86_64-535.129.03.run
 
