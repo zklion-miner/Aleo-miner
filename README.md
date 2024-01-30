@@ -52,7 +52,7 @@ zklion ALEO挖礦方式為用戶名挖礦，需註冊礦池帳戶後根據引導
 
 ## 3、下載挖礦程序
 
-[下載地址](https://github.com/zklion-miner/Aleo-miner/releases)
+[点击进入挖矿程序下載地址～～～](https://github.com/zklion-miner/Aleo-miner/releases)
 ```shell
 aleo-pool-prover          //Ubuntu系統礦池挖礦程序
 
@@ -116,12 +116,19 @@ cd aleo-solo-prover/
 3、添加可執行權限
 chmod +x aleo-solo-prover
 4、啟動
-./aleo-solo-prover --address aleo1308gq2pfn0y3hgm722wysx4ks8szxsxaxsdnjnabdy --proxy wss://aleo.zklion.com:3666 --worker-name x99-01
+./aleo-solo-prover --address aleo1308gq2pfn0y3xxxx --proxy wss://aleo.zklion.com:3666 --worker-name x99-01
 ```
 
-## 6、後臺運行挖礦程序
+## 6、后台運行挖礦程序、如下为示例、实际运行时请将参数替换为自己的
+
+矿池程序后台运行：
 ```shell
 nohup ./aleo-pool-prover --account test01 --pool wss://aleo.zklion.com:3777 --worker-name 192-168-100-101 &> /root/zklion-pool-prover.log &
+```
+
+solo程序后台运行：
+```shell
+nohup ./aleo-solo-prover --address aleo1308gq2pfn0y3xxxx --proxy wss://aleo.zklion.com:3666 --worker-name 192-168-100-102 &> /root/zklion-solo-prover.log &
 ```
 
 檢查zklion-pool-prover.log日誌、顯示如下信息，則說明程序運行正常
