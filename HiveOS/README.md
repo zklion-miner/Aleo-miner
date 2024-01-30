@@ -21,12 +21,14 @@
 
 
 ```
-1、安裝地址輸入GitHub中的HiveOS下載地址
+1、安裝鏈接為下載地址中zklion_miner.tar.gz文件的鏈接地址、鼠標選中文件、右鍵可復制鏈接地址
 2、加密算法選擇【Aleo】
 3、錢包與礦機模版輸入【%WAL%】
 4、礦池地址：礦池模式輸入【wss://aleo.zklion.com:3777】、solo模式輸入【wss://aleo.zklion.com:3666】
 5、其他配置參數：礦池模式不需要填寫、solo模式需要填solo
 ```
+[點擊查看安裝鏈接～～～](https://github.com/zklion-miner/Aleo-miner/releases)
+
 <img width="600" height="600" src="https://github.com/zklion-miner/Aleo-miner/blob/master/HiveOS/103.png" alt="103"/>
 <img width="600" height="600" src="https://github.com/zklion-miner/Aleo-miner/blob/master/HiveOS/104.png" alt="104"/>
 
