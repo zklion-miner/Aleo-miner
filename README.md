@@ -1,3 +1,5 @@
+[Click to view the English version tutorial～～～](https://github.com/zklion-miner/Aleo-miner/blob/master/README_en.md)
+
 
 ## 1、準備挖礦設備
 
