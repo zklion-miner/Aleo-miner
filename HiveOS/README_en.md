@@ -6,7 +6,7 @@
 3. Note the wallet name.
 4. Click Create.
 ```
-![1001](https://github.com/zklion-miner/Aleo-miner/blob/master/HiveOS/1001.png)
+<img width="600" height="600" src="https://github.com/zklion-miner/Aleo-miner/blob/master/HiveOS/1001.png" alt="1001"/>
 
 ## 2. Create Flight Sheets
 
@@ -17,7 +17,7 @@
 4. Select the Miner as "Custom".
 5. Click "Setup Miner Config".
 ```
-![1002](https://github.com/zklion-miner/Aleo-miner/blob/master/HiveOS/1002.png)
+<img src="https://github.com/zklion-miner/Aleo-miner/blob/master/HiveOS/1002.png" alt="1002"/>
 
 ```
 1. The installation URL is the download URL of the zklion_miner.tar.gz file, mouse over the file, right-click to copy the URL address.
@@ -28,11 +28,11 @@
 ```
 [Click to view installation URL～～～](https://github.com/zklion-miner/Aleo-miner/releases)
 
-![1003](https://github.com/zklion-miner/Aleo-miner/blob/master/HiveOS/1003.png)
-![1004](https://github.com/zklion-miner/Aleo-miner/blob/master/HiveOS/1004.png)
+<img width="600" height="600" src="https://github.com/zklion-miner/Aleo-miner/blob/master/HiveOS/1003.png" alt="1003"/>
+<img width="600" height="600" src="https://github.com/zklion-miner/Aleo-miner/blob/master/HiveOS/1004.png" alt="1004"/>
 
 ```
 1. Enter the flight sheet name.
 2. Click Create Flight Sheet.
 ```
-![1005](https://github.com/zklion-miner/Aleo-miner/blob/master/HiveOS/1005.png)
+<img src="https://github.com/zklion-miner/Aleo-miner/blob/master/HiveOS/1005.png" alt="1005"/>
