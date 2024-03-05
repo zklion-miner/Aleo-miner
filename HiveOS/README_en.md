@@ -1,0 +1,38 @@
+## 1. Add Wallet
+
+```
+1. The Coin is Aleo.
+2. Enter the address. For pool mode, fill in the mining account. For solo mode, fill in the Aleo wallet address.
+3. Note the wallet name.
+4. Click Create.
+```
+![1001](https://github.com/zklion-miner/Aleo-miner/blob/master/HiveOS/1001.png)
+
+## 2. Create Flight Sheets
+
+```
+1. Select the Coin as "Aleo".
+2. Select the wallet that was just created.
+3. Select the pool as "Configure in miner".
+4. Select the Miner as "Custom".
+5. Click "Setup Miner Config".
+```
+![1002](https://github.com/zklion-miner/Aleo-miner/blob/master/HiveOS/1002.png)
+
+```
+1. The installation URL is the download URL of the zklion_miner.tar.gz file, mouse over the file, right-click to copy the URL address.
+2. Select the Hash algorithm as "Aleo".
+3. Enter "%WAL%" for the wallet and worker template.
+4. Pool URL: For pool mode, enter "wss://aleo.zklion.com:3777". For solo mode, enter "wss://aleo.zklion.com:3666".
+5. Extra config arguments: For pool mode, no need to fill in. For solo mode, fill in "solo".
+```
+[Click to view installation URL～～～](https://github.com/zklion-miner/Aleo-miner/releases)
+
+![1003](https://github.com/zklion-miner/Aleo-miner/blob/master/HiveOS/1003.png)
+![1004](https://github.com/zklion-miner/Aleo-miner/blob/master/HiveOS/1004.png)
+
+```
+1. Enter the flight sheet name.
+2. Click Create Flight Sheet.
+```
+![1005](https://github.com/zklion-miner/Aleo-miner/blob/master/HiveOS/1005.png)
