@@ -2,7 +2,7 @@
 
 Operating System: It is recommended to use the following systems, desktop versions of Ubuntu are temporarily not compatible.
 
- HiveOS [Click here to view HiveOS configuration tutorial～～～](https://github.com/zklion-miner/Aleo-miner/tree/master/HiveOS)
+ HiveOS [Click here to view HiveOS configuration tutorial～～～](https://github.com/zklion-miner/Aleo-miner/blob/master/HiveOS/README_en.md)
 
  Ubuntu 18.04 server
 
